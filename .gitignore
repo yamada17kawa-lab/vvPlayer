@@ -1,0 +1,80 @@
+## ===================================================================
+## vvPlayer - Git 忽略规则 (.gitignore)
+## 针对 .NET / WPF / Visual Studio / Rider / 大体积媒体与模型定制
+## ===================================================================
+
+# 1. 编译输出与中间缓存 (极其重要，杜绝上传)
+[Bb]in/
+[Oo]bj/
+[Aa]pp[Dd]ata/
+out/
+[Tt]est[Rr]esults/
+
+# 2. 本地音视频测试文件与媒体资源 (>100MB 会被 GitHub 强行拒推)
+test/
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.m4a
+
+# 3. 离线 AI 模型权重文件 (Whisper / ONNX 权重通常数以百兆，应在首次运行自动下载或外链存储)
+Assets/opus-mt-en-zh/
+Assets/*.bin
+Assets/*.onnx
+Assets/**/vocab.json
+Assets/**/tokenizer.json
+*.onnx
+*.bin
+*.pt
+*.safetensors
+*.gguf
+models/
+whisper_models/
+
+# 4. Visual Studio / VS Code / JetBrains Rider 工具及个人环境配置
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.user
+*.userosv
+*.suo
+*.userprefs
+*.DotSettings.user
+*.pidb
+*.ide
+
+# 5. 临时文件、崩溃日志与转储
+*.log
+crash.log
+*.tmp
+*.temp
+*.swp
+*~
+*.dmp
+*.bak
+
+# 6. Windows / macOS 操作系统临时文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 7. NuGet 本地包缓存 (依赖会通过 nuget.config 与 csproj 自动还原)
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
