@@ -6,6 +6,8 @@
 # 1. 编译输出与中间缓存 (极其重要，杜绝上传)
 [Bb]in/
 [Oo]bj/
+publish/
+*.zip
 [Aa]pp[Dd]ata/
 out/
 [Tt]est[Rr]esults/

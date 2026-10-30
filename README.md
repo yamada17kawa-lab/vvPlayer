@@ -15,8 +15,20 @@
   <img src="https://img.shields.io/badge/Engine-LibVLC_3.0-FF8800?logo=vlcmediaplayer&logoColor=white" alt="LibVLC" />
   <img src="https://img.shields.io/badge/AI_ASR-Whisper.net-green?logo=openai&logoColor=white" alt="Whisper.net" />
   <img src="https://img.shields.io/badge/AI_MT-ONNX_Runtime-blue?logo=onnx&logoColor=white" alt="ONNX Runtime" />
-  <img src="https://img.shields.io/badge/Architecture-MVVM-lightgrey" alt="MVVM" />
+  <a href="https://github.com/yamada17kawa-lab/vvPlayer/releases/latest"><img src="https://img.shields.io/github/v/release/yamada17kawa-lab/vvPlayer?color=orange&label=Release&logo=github" alt="GitHub Release" /></a>
 </p>
+
+<p align="center">
+  <a href="https://github.com/yamada17kawa-lab/vvPlayer/releases/latest">
+    <img src="https://img.shields.io/badge/📦_点击直接下载-Windows免安装绿色版-success?style=for-the-badge&logo=windows" alt="Download Windows Release" />
+  </a>
+</p>
+
+---
+
+> [!TIP]
+> **🚀 普通用户无需安装任何开发环境！**
+> 点击上方按钮或前往 👉 **[GitHub Releases 最新发布页](https://github.com/yamada17kawa-lab/vvPlayer/releases/latest)** 下载 `vvPlayer-v1.0.0-win-x64.zip`，解压后双击 `vvPlayer.exe` 即可直接播放使用。
 
 ---
 
